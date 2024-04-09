@@ -21,7 +21,7 @@ import { pluginFetch } from "@zodios/plugins";
 
 apiClient.use(pluginFetch({
   // all fetch options are supported
-  keepAlive: true,
+  keepalive: true,
 }));
 ```
   

@@ -145,7 +145,7 @@ use(alias: string, plugin: ZodiosPlugin): PluginId;
 import { pluginFetch } from "@zodios/plugins";
 
 apiClient.use(pluginFetch({
-  keepAlive: true,
+  keepalive: true,
 }));
 ```
 
